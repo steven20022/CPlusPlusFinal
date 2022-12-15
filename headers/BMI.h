@@ -100,7 +100,7 @@ void BMI::calculate() {
 }
 void BMI::printBMI() const{
     cout << fixed << showpoint;
-    cout << setprecision(2);
+    cout << setprecision(3);
     cout << "height = " << height << ", weight = " << weight << ", bmi = " << bmi << endl;
 }
 bool BMI::equalBMI(const BMI& otherBMI) const{
